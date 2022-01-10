@@ -16,26 +16,26 @@ class Main {
 
 		var arrazoia = switch asteguna {
 			case astelehena:
-				'astelehena,\njai ondoko alperra,\nlanik ez egiteko';
+				'astelehena,\\\njai ondoko alperra,\\\nlanik ez egiteko';
 			case asteartea:
-				'asteartea,\neuria goitik behera,\nbustiko ez bagara,';
+				'asteartea,\\\neuria goitik behera,\\\nbustiko ez bagara,';
 			case asteazkena:
-				'asteazkena,\nosabaren ezkontza,\nberak nahi baldin badu,';
+				'asteazkena,\\\nosabaren ezkontza,\\\nberak nahi baldin badu,';
 			case osteguna:
-				'osteguna,\namonaren eguna,\nhori ospatutzeko,';
+				'osteguna,\\\namonaren eguna,\\\nhori ospatutzeko,';
 			case ostirala:
-				'ostirala,\nhaginetako mina,\naspirina hartuta,\nbagoaz ohera,';
+				'ostirala,\\\nhaginetako mina,\\\naspirina hartuta,\\\nbagoaz ohera,';
 			case larunbata:
-				'larunbata,\negun erdiko lana,\negun erditxogatik,';
+				'larunbata,\\\negun erdiko lana,\\\negun erditxogatik,';
 			case igandea:
-				'igandea,\nlantegiak itxita,\nlana egin nahi baina,';
+				'igandea,\\\nlantegiak itxita,\\\nlana egin nahi baina,';
 			case _:
 				null;
 		}
 
 		if (arrazoia != null) {
 			for (_ in 0...5)
-				arrazoia += '\nez goaz lanera';
+				arrazoia += '\\\nez goaz lanera';
 
 			var content = sys.io.File.getContent('readme.tpl.md');
 			content = StringTools.replace(content, "::arrazoia::", arrazoia);
