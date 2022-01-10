@@ -36,10 +36,10 @@ class Main {
 		if (arrazoia != null) {
 			for (_ in 0...5)
 				arrazoia += '\nez goaz lanera';
+
 			var content = sys.io.File.getContent('readme.tpl.md');
 			content = StringTools.replace(content, "::arrazoia::", arrazoia);
-			trace(content);
-			// sys.io.File.saveContent('readme.md', content);
+			sys.io.File.saveContent('readme.md', content);
 		}
 	}
 }
