@@ -29,17 +29,15 @@ class Main {
 				'larunbata,\\\negun erdiko lana,\\\negun erditxogatik,';
 			case igandea:
 				'igandea,\\\nlantegiak itxita,\\\nlana egin nahi baina,';
-			case _:
-				null;
+			case x:
+				'$x. eguna,\\\nez dago_horrelakorik,\\\nexistitzen ez bada,';
 		}
 
-		if (arrazoia != null) {
-			for (_ in 0...5)
-				arrazoia += '\\\nez goaz lanera';
+		for (_ in 0...5)
+			arrazoia += '\\\nez goaz lanera';
 
-			var content = sys.io.File.getContent('readme.tpl.md');
-			content = StringTools.replace(content, "::arrazoia::", arrazoia);
-			sys.io.File.saveContent('readme.md', content);
-		}
+		var content = sys.io.File.getContent('readme.tpl.md');
+		content = StringTools.replace(content, "::arrazoia::", arrazoia);
+		sys.io.File.saveContent('readme.md', content);
 	}
 }
