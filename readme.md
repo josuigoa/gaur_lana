@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-larunbata,\
-egun erdiko lana,\
-egun erditxogatik,\
+igandea,\
+lantegiak itxita,\
+lana egin nahi baina,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
