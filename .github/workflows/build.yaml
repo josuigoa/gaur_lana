@@ -16,7 +16,7 @@ jobs:
         haxe-version: 4.2.4
 
     - name: Execute project
-      run: haxe -main Main --interp
+      run: haxe -main Main --interp -D mastobot_token=${{ secrets.MASTODON_BOT_TOKEN }}
 
     - name: Setup git config
       run: |
