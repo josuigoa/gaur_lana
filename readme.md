@@ -1,8 +1,9 @@
 # GAUR LANIK BAI?
 
-osteguna,\
-amonaren eguna,\
-hori ospatutzeko,\
+ostirala,\
+haginetako mina,\
+aspirina hartuta,\
+bagoaz ohera,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
