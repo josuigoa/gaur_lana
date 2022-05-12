@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-asteazkena,\
-osabaren ezkontza,\
-berak nahi baldin badu,\
+osteguna,\
+amonaren eguna,\
+hori ospatutzeko,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
