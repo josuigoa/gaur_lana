@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-asteartea,\
-euria goitik behera,\
-bustiko ez bagara,\
+asteazkena,\
+osabaren ezkontza,\
+berak nahi baldin badu,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
