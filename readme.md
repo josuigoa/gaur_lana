@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-osteguna,\
-amonaren eguna,\
-hori ospatutzeko,\
+larunbata,\
+egun erdiko lana,\
+egun erditxogatik,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
