@@ -1,9 +1,8 @@
 # GAUR LANIK BAI?
 
-ostirala,\
-haginetako mina,\
-aspirina hartuta,\
-bagoaz ohera,\
+larunbata,\
+egun erdiko lana,\
+egun erditxogatik,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
