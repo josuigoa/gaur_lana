@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-igandea,\
-lantegiak itxita,\
-lana egin nahi baina,\
+astelehena,\
+jai ondoko alperra,\
+lanik ez egiteko\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
