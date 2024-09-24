@@ -1,8 +1,8 @@
 # GAUR LANIK BAI?
 
-astelehena,\
-jai ondoko alperra,\
-lanik ez egiteko\
+asteartea,\
+euria goitik behera,\
+bustiko ez bagara,\
 ez goaz lanera\
 ez goaz lanera\
 ez goaz lanera\
