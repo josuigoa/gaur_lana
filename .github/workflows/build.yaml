@@ -1,8 +1,7 @@
 name: Compile
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # egunero gauerdian
+  workflow_dispatch
 
 jobs:
   build:
